@@ -6,9 +6,7 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ],
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs20.x"
-    }
+  "env": {
+    "NODE_VERSION": "20"
   }
 }
