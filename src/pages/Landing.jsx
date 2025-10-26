@@ -1,3 +1,4 @@
+import landImg from '../../src/assets/images/ticketImg.jpg'
 export default function Landing(){
   return (
     <section className="hero">
@@ -11,7 +12,7 @@ export default function Landing(){
           </div>
         </div>
         <div className="card" aria-hidden="true">
-          <img src="../../src/assets/images/ticketImg.jpg" alt="" />
+          <img src={landImg} alt="" />
         </div>
       </div>
       <div className="dec-circle c1"></div>
