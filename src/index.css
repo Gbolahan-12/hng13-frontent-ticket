@@ -627,7 +627,10 @@ footer {
     padding-right: 0.9rem;
   }
   .nav-links {
-    display: none;
+    /* display: none; */
+    font-size: 12px;
+    gap: 4px;
+    width: 80vw;
   }
   .nav-toggle {
     display: block;
